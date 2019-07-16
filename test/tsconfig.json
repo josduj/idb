@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+	"target": "esnext",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "declarationDir": "../test-build"
